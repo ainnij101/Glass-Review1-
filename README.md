@@ -1,11 +1,5 @@
 # Glass-Review1-
-<!doctype html>
-<html>
-<head>
-<title>Contents</title>
-<meta charset="utf-8">
-</head>
-<body>
+
 <h1> Content</h1>
  <ol>
    <li><a href="2.html">Spec requirement</a></li>
