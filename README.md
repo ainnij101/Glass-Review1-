@@ -6,11 +6,11 @@
 <meta charset="utf-8">
 </head>
 <body>
-<h1><a href="2.html"> Content</a></h1>
+<h1> Content</h1>
  <ol>
    <li><a href="2.html">Spec requirement</a></li>
-   <li><a href="2.html">Glass type </a></li>
-   <li><a href="2.html">Test requirement</a>
+   <li><a href="3.html">Glass type </a></li>
+   <li><a href="4.html">Test requirement</a>
 
 </body>
 </html>
