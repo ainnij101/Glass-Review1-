@@ -15,40 +15,25 @@
          <p> </ol>
 
 <div class="writer_info">
-                                                    <span class="info_name">
-                                                        <label for="name" class="lab_info screen_out">이름</label>
-                                                        <span class="wrap_info">
-                                                            <input type="text" name="name" id="name" class="inp_info" placeholder="Name" tabindex="1">
-                                                        </span>
-                                                    </span>
-														<span class="info_pw ">
-                                                        <label for="password" class="lab_info screen_out">비밀번호</label>
-                                                        <span class="wrap_info">
-                                                            <input type="password" name="password" id="password" class="inp_info" placeholder="Password" tabindex="2">
-                                                        </span>
-                                                    </span>
-													</div>
-												
-												<div class="writer_check">
-                                                <span class="check_secret ">
-                                                    <input type="checkbox" name="secret" id="secret" class="inp_secret" tabindex="4">
-                                                    <label for="secret" class="lab_secret">
-                                                        <span class="ico_skin ico_check"></span>
-                                                        Secret
-                                                    </label>
-                                                </span>
-												</div>
-											
+                                                    
+	<span class="info_name">
+                                                        
+		<label for="name" class="lab_info screen_out">Name</label>
+                                                       
+		<span class="wrap_info">                                  
+			<input type="text" name="name" id="name" class="inp_info" placeholder="Name" tabindex="1">                                      
+		</span>                                           
+	</span>																								
+</div>
+<div class="reply_write ">
+	<label for="comment" class="lab_write screen_out">내용</label>
+	<textarea name="comment" id="comment" class="tf_reply" placeholder="Add your comments" tabindex="3"></textarea>
+		</div>
 
-											<div class="reply_write ">
-												<label for="comment" class="lab_write screen_out">내용</label>
-												<textarea name="comment" id="comment" class="tf_reply" placeholder="여러분의 소중한 댓글을 입력해주세요" tabindex="3"></textarea>
-											</div>
-
-											<div class="writer_btn">
-												<button type="submit" class="btn_enter" onclick="addComment(this, 65); return false;" tabindex="5">Send</button>
-											</div>
-										</fieldset>
-									</form>
-								</div><script type="text/javascript">loadedComments[65]=true;findFragmentAndHighlight(65)</script>
+	<div class="writer_btn">
+		<button type="submit" class="btn_enter" onclick="addComment(this, 65); return false;" tabindex="5">Send</button>
+				</div>
+					</fieldset>
+						</form>
+						</div><script type="text/javascript">loadedComments[65]=true;findFragmentAndHighlight(65)</script>
 							</div>
