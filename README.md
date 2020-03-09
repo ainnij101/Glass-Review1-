@@ -1,5 +1,4 @@
 # Glass-Review1-
-<!doctype html>
 <html>
  <meta charset="utf-8">
 <h1> Content</h1>
