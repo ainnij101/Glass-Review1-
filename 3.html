@@ -14,27 +14,41 @@
          <li><strong> GL-01a: 10HS+2.28 PVB+10HS+12AS+12FT, All low iron, low-e (YBJ-FL) on #4 (SC0.27)</li></strong>
          <p> </ol>
 
+<div class="writer_info">
+                                                    <span class="info_name">
+                                                        <label for="name" class="lab_info screen_out">이름</label>
+                                                        <span class="wrap_info">
+                                                            <input type="text" name="name" id="name" class="inp_info" placeholder="Name" tabindex="1">
+                                                        </span>
+                                                    </span>
+														<span class="info_pw ">
+                                                        <label for="password" class="lab_info screen_out">비밀번호</label>
+                                                        <span class="wrap_info">
+                                                            <input type="password" name="password" id="password" class="inp_info" placeholder="Password" tabindex="2">
+                                                        </span>
+                                                    </span>
+													</div>
+												
+												<div class="writer_check">
+                                                <span class="check_secret ">
+                                                    <input type="checkbox" name="secret" id="secret" class="inp_secret" tabindex="4">
+                                                    <label for="secret" class="lab_secret">
+                                                        <span class="ico_skin ico_check"></span>
+                                                        Secret
+                                                    </label>
+                                                </span>
+												</div>
+											
 
-<html>
-<head>
-    <meta charset="utf-8">
-              <meta http-equiv="X-UA-Compatible" content="IE=edge">
-              <title>Page Title</title>
-               <meta name="viewport" content="width=device-width, initial-scale=1">
-               <link rel="stylesheet" type="text/css" media="screen" href="index.css">
-               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-             </head>
+											<div class="reply_write ">
+												<label for="comment" class="lab_write screen_out">내용</label>
+												<textarea name="comment" id="comment" class="tf_reply" placeholder="여러분의 소중한 댓글을 입력해주세요" tabindex="3"></textarea>
+											</div>
 
-           <body> <div id="form-commentInfo">
-             <div id="comment-count">COMMENTS <span id="count">0</span></div>
-             <input id="comment-input" placeholder="Add your comments.">
-             <button id="submit">Confirm</button>
-           </div>
-           <div id=comments>
-
-            </div>
-            <script src="index.js"></script>
-          </body> </html>
-
-        </body>
-</html>
+											<div class="writer_btn">
+												<button type="submit" class="btn_enter" onclick="addComment(this, 65); return false;" tabindex="5">Send</button>
+											</div>
+										</fieldset>
+									</form>
+								</div><script type="text/javascript">loadedComments[65]=true;findFragmentAndHighlight(65)</script>
+							</div>
